@@ -11,13 +11,9 @@ class App extends Component {
 
 
   //Your code here:
-
-
-
-
-
-
-
+  componentDidMMount() {
+    this.handleAddTimer();
+  }
 
 
   // No need to modify anything in render or the class methods below
